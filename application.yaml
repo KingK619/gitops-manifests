@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: gitopsregistryyourinitials9922.azurecr.io/fast-api-microservice:v2
+          image: gitopsregistryyourinitials9922.azurecr.io/fast-api-microservice:e4d3b1b636a2b105e29339aa5788284ae9ace059
           ports:
             - containerPort: 8000
 ---
