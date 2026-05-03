@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: fastapi-gitops
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: gitopsregistryyourinitials9922.azurecr.io/fast-api-microservice:v1
+          image: gitopsregistryyourinitials9922.azurecr.io/fast-api-microservice:v2
           ports:
             - containerPort: 8000
 ---
